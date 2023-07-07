@@ -199,11 +199,12 @@ span {
     padding: 3rem 2rem 4rem;
     border-radius: 50px;;
     text-align: center;
-    border: 2rem solid var(--bg-color);
+    border: 1rem solid var(--bg-color);
 }
 
 .service-box i{
     font-size: 7rem;
+    border-color: var();
     color: var(--main-color);
 }
 .service-box:hover i{
@@ -444,3 +445,8 @@ services-box p{
     display: none;
 }
 
+
+.about-section {
+    align-items: center;
+    display: block;
+}
