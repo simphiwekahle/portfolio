@@ -1,223 +1,77 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
-    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <title>Mondli's Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
-
 <body>
-    <header class="header" id="header">
-        <a href="#" class="logo">Portfolio</a>
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
 
-        <i class="bx bx-menu" id="menu"></i>
-
-        <nav class="main">
-         <a href="#home" class="active">Home</a>
-         <a href="#about">About</a>
-         <a href="#services">Services</a>  
-         <a href="#portfolio">Portfolio</a>  
-         <a href="#contact">Contact</a>  
+        <nav class = "navbar">
+            <a href="index.html" style="--i:12" class = "active">Home</a>
+            <a href="about.html" style="--i:13">About</a>
+            <a href="skills.html" style="--i:14">Skills</a>
         </nav>
+
+        <div class="toggle">
+            <i class='bx bx-moon toggle-icon'></i>
+        </div>
+
     </header>
-    <section class="home" id="home">
-        <div class="home-section">
-            <h3>Hi, It is Me</h3>
+    <section class="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
             <h1>Mondli Khanyile</h1>
-            <h3>And I am a <span class="text"></span></h3>
-            <p> I am an adept business analyst and developer, well-versed in analysing data, finding the problem, finding a solution, drawing system design (using UMLs) and developing the system. I had my first-hand experience in analysing and developing systems as a part of real-world problem project while I was at university. The project has allowed me to enhance my communication skills, be a problem solver, be a team player, the ability to manage time, be computer literate, fine-tune my writing skills, delivering high-quality information and high-quality systems.</p>
-        </div>
-
-        <div class="home-image">
-            <img src="imgs/PIC.jpg" alt="">
-        </div>
-    </section>
-
-    <section class="about" id="about">
-    <div class="about-image">
-        <img src="imgs/mypic.jpeg" alt="">
-    </div>
-
-    <div class="about-section">
-        <h2 class="heading">About <span>Me</span></h2>
-        <h3>Developer and Business Analyst</h3>
-        <p>I am technically minded, with an experience of 
-            project management software (Visual studio, Microsoft SQL server management, Android studio, R 
-            studio), Microsoft office suite and programming languages (Bootstrap, C#, HTML, CSS, Python, Java, JavaScript, 
-            SQL, Microsoft Power Apps)<span id="dots">...</span>
-                <span id="more">An innovative and organised Diploma in ICT programming Business Analysis graduate (17 distinctions 
-                    and an average of more than 75%) and a recent Advanced Diploma in ICT graduate (2 distinctions and 
-                    an average of 70%) with expertise of creating applications, websites, databases, analysing data and 
-                    drawing UMLs. 
-                    I am an adept business analyst and developer, well-versed in analysing data, finding the problem, 
-                    finding a solution, drawing system design (using UMLs) and developing the system. I had my first-hand 
-                    experience in analysing and developing systems as a part of real-world problem project while I was at 
-                    university. The project has allowed me to enhance my communication skills, be a problem solver, be 
-                    a team player, the ability to manage time, be computer literate, fine-tune my writing skills, delivering 
-                    high-quality information and high-quality systems. 
-                    Core Skills
-                    • Analytical Skills,
-                    • Creativity,
-                    • Communication,
-                    • Computer programming,
-                    • Time Management and
-                    • Computer Literacy 
-                    Education and Qualifications
-                    (Durban University of Technology (2022-2022) 
-                    Advance Diploma in ICT (NQF Level 7) Details on 
-                    some modules: 
-                    • Machine intelligence: Creating a complete predicting system in Python using machine learning 
-                    techniques and models to predict the behaviour of the system. 
-                    • Platform Based Development: Developing a web application, a mobile application, and a 
-                    game. 
-                    • Business Intelligence: Understanding decision making, decision analytics, descriptive analysis, 
-                    predictive analysis, prescriptive analysis and gaining the ability to use Business Intelligence 
-                    tools.). (Durban University of Technology (2019-2021) 
-                    Diploma in ICT programming: Business Analysis (NQF Level 6) Details on some 
-                    modules: 
-                    • Information Management: Understanding entity relationships and creating databases using 
-                    Microsoft SQL server. 
-                    • Business Information Systems: Understanding Enterprise Resource Planning (ERP) and 
-                    critically reflect on the importance of protecting personal data and other ethical, moral, and 
-                    legal requirements 
-                    • Fundamental of Computer Security: Understanding the importance of protecting data and 
-                    learning techniques of how to protect data. 
-                    • Business Analysis project: Applying a range of methods to determine the best possible solution 
-                    for the business problem and developing test plans for possible solutions.)
-                </span>
+            <p> I am an adept business analyst and developer, well-versed in analysing data, finding the problem, finding a solution, drawing system design (using UMLs) and developing the system. I had my first-hand experience in analysing and developing systems as a part of real-world problem project while I was at university. The project has allowed me to enhance my communication skills, be a problem solver, be a team player, the ability to manage time, be computer literate, fine-tune my writing skills, delivering high-quality information and high-quality systems.
             </p>
+
+            <div class="social-media">
+                <a href="https://www.facebook.com/mondli.khanyile.376" style="--i:7"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.linkedin.com/in/mondli-khanyile-25b918224 " style="--i:8"><i class='bx bxl-linkedin-square' ></i></a>
+                <a href="https://instagram.com/mondlikhanyile.16?igshid=ZDc4ODBmNjlmNQ==" style="--i:9"><i class='bx bxl-instagram'></i></a>
+                <a href="mailto:21938981@dut4life.ac.za"><i class='bx bx-envelope' style="--i:10"></i></a>
+                <a href="tel:0682464407"><i class='bx bx-phone' style="--i:11"></i></a>
+
             </div>
-        <button onclick= "readmore()" id="button" class="btn">Read More</button>
-    </div>
+
+            <a href="https://drive.google.com/file/d/1YnQPGXO50lUqkea3CwJDkJIyNEISkW70/view?usp=drive_link" class ="btn">Download CV</a>
+            
+        </div>
+        <div class="profession">
+            <div class="profession-box">
+                <div class="prof"  style="--i:0;">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Developer</h3>
+                </div>
+                <div class="prof"  style="--i:1;">
+                    <i class='bx bx-line-chart'></i>
+                    <h3>Business Analyst</h3>
+                </div>
+                <div class="prof"  style="--i:2;">
+                    <i class='bx bx-desktop'></i>
+                    <h3>Application Developer</h3>
+                </div>
+                <div class="prof"  style="--i:3;">
+                    <i class='bx bx-palette'></i>
+                    <h3>Web Designer</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+            <div class="overlay"></div>
+        </div>
+        <div class="home-img">
+            <img src="PIC.jpg" alt="">
+        </div>
+        
     </section>
 
-
-    <section class="services" id="services">
-        <h2 class="heading">My <span>Services</span></h2>
-
-        <div class="service-section">
-            <div class="service-box">
-                <i class='bx bx-code-alt'></i>
-                <h3>Developer</h3>
-                <p>I am technically minded Developer and know a lot of programming languages making me a great tool to have since I can be able to adapt in any programming language. This web application portolio shows some  my skills. I also know more programming languages as seen in my about.</p>
-            
-            </div>
     
-            <div class="service-box">
-                <i class='bx bx-line-chart'></i>
-                <h3>Business Analyst</h3>
-                <p> Since i have the abilty to develope systems, I believe I can be a wonderful Business Analyst, Since i will be able to offer solutions that will be possible to develop and has a higher success rate because clear and well-defined use cases and other UMLs.</p>
-                
-            </div>
-        </div>
-        
-    </section>
 
-    <section class="portfolio"id="portfolio">
-        <h2 class="heading">My projects</h2>
-            
-            <div class="port-section">
-                
-                <div  class="port-box">
-                    <img src="imgs/broez.jpg" alt="">
-
-                    <div class="port-layer">
-                        <h4>Forex Broez</h4>
-                    <p>Forex Broez is a web application that helps upcoming Forex trader from a beginner level to a profesional level.</p>
-                    <a href="forexbroex.com"><i class='bx bx-link-external'></i></a>
-                    </div>
-                </div>
-
-                <div  class="port-box">
-                    <img src="imgs/NotYet.jpg" alt="">
-
-                    <div class="port-layer">
-                        <h4>NOT YET AVALAIBLE</h4>
-                    <p>Comming Soon</p>
-                    <a href="#"><i class='bx bx-link-external'></i></a>
-                    </div>
-                </div>
-
-                <div  class="port-box">
-                    <img src="imgs/NotYet.jpg" alt="">
-
-                    <div class="port-layer">
-                        <h4>NOT YET AVALAIBLE</h4>
-                    <p>Comming Soon</p>
-                    <a href="#"><i class='bx bx-link-external'></i></a>
-                    </div>
-                </div>
-                
-                <div  class="port-box">
-                    <img src="imgs/NotYet.jpg" alt="">
-
-                    <div class="port-layer">
-                        <h4>NOT YET AVALAIBLE</h4>
-                    <p>Comming Soon</p>
-                    <a href="#"><i class='bx bx-link-external'></i></a>
-                    </div>
-                </div>
-
-                <div  class="port-box">
-                    <img src="imgs/NotYet.jpg" alt="">
-
-                    <div class="port-layer">
-                        <h4>NOT YET AVALAIBLE</h4>
-                    <p>Comming Soon</p>
-                    <a href="#"><i class='bx bx-link-external'></i></a>
-                    </div>
-                </div>
-
-                <div  class="port-box">
-                    <img src="imgs/NotYet.jpg" alt="">
-
-                    <div class="port-layer">
-                        <h4>NOT YET AVALAIBLE</h4>
-                    <p>Comming Soon</p>
-                    <a href="#"><i class='bx bx-link-external'></i></a>
-                    </div>
-                </div>
-                
-            </div>
-
-    </section>
-
-    <section class="contact" id="contact">
-        <h2 class="heading">Contact <span>Me!</span></h2>
-        <div class="contact-section">
-            <div class="social">
-                <div class="socials">
-                    <a href="tel:0682464407"><i class='bx bx-phone'></i></a>
-                </div>
-                <div class="socials">
-                    <a href="mailto:21938981@dut4life.ac.za"><i class='bx bx-envelope'></i></a>
-                </div>
-                <div class="socials">
-                    <a href="https://www.linkedin.com/in/mondli-khanyile-25b918224"><i class='bx bxl-linkedin' ></i></a>
-                </div>
-            </div>
-        </div>
-        
-       
-    </section>
-
-    <footer class="footer">
-        <div class="footer-icon">
-            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
-        </div>
-    </footer>
-
-
-    <script src="https://unpkg.com/scrollreveal"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="script.js"></script>
 </body>
 </html>
