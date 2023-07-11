@@ -371,7 +371,7 @@ span{
 
 .service ,.service-cont{
     display: flex;
-    justify-items: center;
+    justify-content: center;
     align-items: center;
     flex-wrap: 2rem;
     gap: 2rem;
