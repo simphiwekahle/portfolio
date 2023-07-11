@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mondli's Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
@@ -12,17 +15,19 @@
         <a href="#" class="logo">Portfolio.</a>
 
         <nav class = "navbar">
-            <a href="index.html" style="--i:12" class = "active">Home</a>
-            <a href="about.html" style="--i:13">About</a>
-            <a href="skills.html" style="--i:14">Skills</a>
+            <a href="#home" style="--i:12" class = "active">Home</a>
+            <a href="#about" style="--i:13">About</a>
+            <a href="#service" style="--i:14">Skills</a>
         </nav>
 
         <div class="toggle">
-            <i class='bx bx-moon toggle-icon'></i>
+            <i class='bx bx-moon toggle-icon' id="darkicon"></i>
         </div>
-
+        <div>
+            <i class='bx bx-menu' id="menuicon"></i>
+        </div>
     </header>
-    <section class="home">
+    <section class="home" id="home">
         <div class="home-content">
             <h3>Hello, I am</h3>
             <h1>Mondli Khanyile</h1>
@@ -67,10 +72,105 @@
         <div class="home-img">
             <img src="PIC.jpg" alt="">
         </div>
+    </section>
+    <!--about section design-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="mypic.jpeg" alt="">
+        </div>
+        <div class="about-cont">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Hi, I am here to give my blood and sweat inorder to help the company reach new heights</h3>
+            <p> 
+            I am technically minded, with an experience of project management software (Visual studio, Microsoft SQL server management, Android studio, R 
+                studio), Microsoft office suite and programming languages (Bootstrap, C#, HTML, CSS, Python, Java, JavaScript, 
+                SQL, Microsoft Power Apps)<span id="dots">...</span>
+                <span id="more">An innovative and organised Diploma in ICT programming Business Analysis graduate (17 distinctions 
+                and an average of more than 75%) and a recent Advanced Diploma in ICT graduate (2 distinctions and 
+                an average of 70%) with expertise of creating applications, websites, databases, analysing data and 
+                drawing UMLs. 
+                I am an adept business analyst and developer, well-versed in analysing data, finding the problem, 
+                finding a solution, drawing system design (using UMLs) and developing the system. I had my first-hand 
+                experience in analysing and developing systems as a part of real-world problem project while I was at 
+                university. The project has allowed me to enhance my communication skills, be a problem solver, be 
+                a team player, the ability to manage time, be computer literate, fine-tune my writing skills, delivering 
+                high-quality information and high-quality systems. 
+                Core Skills
+                • Analytical Skills,
+                • Creativity,
+                • Communication,
+                • Computer programming,
+                • Time Management and
+                • Computer Literacy 
+                Education and Qualifications
+                            (Durban University of Technology (2022-2022) 
+                            Advance Diploma in ICT (NQF Level 7) Details on 
+                            some modules: 
+                            • Machine intelligence: Creating a complete predicting system in Python using machine learning 
+                            techniques and models to predict the behaviour of the system. 
+                            • Platform Based Development: Developing a web application, a mobile application, and a 
+                            game. 
+                            • Business Intelligence: Understanding decision making, decision analytics, descriptive analysis, 
+                            predictive analysis, prescriptive analysis and gaining the ability to use Business Intelligence 
+                            tools.). (Durban University of Technology (2019-2021) 
+                            Diploma in ICT programming: Business Analysis (NQF Level 6) Details on some 
+                            modules: 
+                            • Information Management: Understanding entity relationships and creating databases using 
+                            Microsoft SQL server. 
+                            • Business Information Systems: Understanding Enterprise Resource Planning (ERP) and 
+                            critically reflect on the importance of protecting personal data and other ethical, moral, and 
+                            legal requirements 
+                            • Fundamental of Computer Security: Understanding the importance of protecting data and 
+                            learning techniques of how to protect data. 
+                            • Business Analysis project: Applying a range of methods to determine the best possible solution 
+                            for the business problem and developing test plans for possible solutions.)
+            </span>
+            </p>
+            </div>
+                <button onclick= "readmore()" id="button" class="btn">Read More</button>
+            </div>
         
     </section>
 
-    
+        <!--service section design-->
+        <section class="service" id="service">
+            <div class="heading">
+            <h2 class="heading" id="head">My <span>Skills</span></h2>
+            <div class="service-cont">
+                <div class="service-box">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Development</h3>
+                    <p>
+                        skilled and dedicated web developer with expertise in various programming languages and tools. With a strong background in Bootstrap, C#, HTML, CSS, Python, Node.js, Java, JavaScript, SQL, and Microsoft Power Apps, I possess a well-rounded skill set to design, develop, and deploy robust web applications. Through my experience and knowledge, I strive to create engaging and user-friendly websites that meet the specific needs of clients.    
+                    <p>
+                </div>
+                <div class="service-box" >
+                    <i class='bx bx-desktop'></i>
+                    <h3>Application Development</h3>
+                    <p>
+                        skilled developer with a strong passion for application development, specializing in both Android and desktop platforms. With experience in creating versatile and user-friendly applications, I have gained expertise in various programming languages and development tools. I will provide an overview of my skills and accomplishments in application development, Android development, and desktop development
+                    <p>
+                </div>
+                <div class="service-box" id="bus">
+                    <i class='bx bx-line-chart'></i>
+                    <h3>Business Analysis</h3>
+                    <p>
+                        As a Business Analyst specializing in system development,  I believe I can play a critical role in bridging the gap between business needs and technical solutions. Your expertise lies in understanding and analyzing business processes, eliciting requirements, and collaborating with stakeholders to design and implement efficient and effective system solutions.    
+                    <p>
+                </div>
+
+            </div>
+        </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-text">
+                <p> Website Portfolio of Mondli Khanyile </p>
+            </div>
+            <div class="footer-icon">
+                <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+            </div>
+        </footer>
 
     <script src="script.js"></script>
 </body>
